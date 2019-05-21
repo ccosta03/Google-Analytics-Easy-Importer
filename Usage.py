@@ -37,7 +37,7 @@ def gapi_generator(ids, sdate, edate, metrics, dimensions, sortby, filters, repo
     print(df.head(5).to_string())
     return df
 
-# Running
+# Running Example
 df = gapi_generator('ExampleID',
           'ExampleStartDate',
           'ExampleEndDate',
