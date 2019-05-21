@@ -174,7 +174,6 @@ def get_first_profile_id(service):
 
 def get_top_keywords(service, profile_id, bottom, sdate, edate, metrics, dim, sby, filters, mres):
   """Executes and returns data from the Core Reporting API.
-  This queries the API for the top 25 organic search terms by visits.
   Args:
     service: The service object built by the Google API Python client library.
     profile_id: String The profile ID from which to retrieve analytics data.
