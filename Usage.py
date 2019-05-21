@@ -1,6 +1,6 @@
 def gapi_generator(ids, sdate, edate, metrics, dimensions, sortby, filters, reportname,maxresults=None):
     
-    ############# Arguments ###########
+    ############# Arguments ############
     # ids = Provider ID from GA
     # sdate = Start Date
     # edate = End Date
@@ -10,7 +10,7 @@ def gapi_generator(ids, sdate, edate, metrics, dimensions, sortby, filters, repo
     # filters = Filters to apply, if none simply leave '' as input
     # report name = CSV File Name
     # maxresults = Maximum number of results to export when query is too big or looking for top10/20/etc, should be a string
-    ###################################
+    ####################################
     
     import time
     import pandas
